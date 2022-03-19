@@ -38,4 +38,5 @@ WikipediaSearchPage wikipediaSearchPage=new WikipediaSearchPage();
 
         Assert.assertTrue(wikipediaSearchPage.mainHeader.getText().equals(string));
     }
+
 }
