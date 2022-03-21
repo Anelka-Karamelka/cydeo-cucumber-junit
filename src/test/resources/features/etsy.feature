@@ -12,7 +12,7 @@ Feature:Etsy Title Verification
     And User clicks search button
     Then User sees Wooden Spoon is in the title
 
-  @wip
+
   Scenario: Etsy Search Functionality Title Verification
     Given User is on Etsy home page
     When User types "Wooden spoon" in the search box
