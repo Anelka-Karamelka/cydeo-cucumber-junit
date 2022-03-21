@@ -11,6 +11,14 @@ Feature: Examples of Cucumber Data table implementations
       | mango       |
       | pomegranate |
 
+  @dataTables
+  Scenario: User should be able to see all 12 month in months dropdown
+  Given User is on login page of CRM
+  When User enters below credentials
+    | username | helpdesk59@cydeo.com |
+    | password | UserUser             |
+  Then user should see
+
 
 
     #to bueatify the pipes above
