@@ -21,4 +21,8 @@ public class DataTablesPage {
     @FindBy(xpath = "//input[@type='submit']")
     public WebElement loginButton;
 
-}
+    @FindBy(id = "month")
+    public WebElement monthDropdown;
+    }
+
+
